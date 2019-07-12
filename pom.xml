@@ -66,6 +66,49 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+<!--HD Wallet add By River-->
+		<!-- https://mvnrepository.com/artifact/org.web3j/core -->
+		<dependency>
+			<groupId>org.web3j</groupId>
+			<artifactId>core</artifactId>
+			<version>4.0.4</version>
+		</dependency><!-- https://mvnrepository.com/artifact/org.bitcoinj/bitcoinj-core -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.4</version>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bitcoinj</groupId>
+			<artifactId>bitcoinj-core</artifactId>
+			<version>0.14.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.ethereum</groupId>
+			<artifactId>ethereumj-core</artifactId>
+			<version>1.7.2-RELEASE</version>
+			<scope>system</scope>
+			<systemPath>/Users/zhouhe/blockchain/ethereumj-core-1.7.2-RELEASE.jar</systemPath>
+			<exclusions>
+				<exclusion>
+					<groupId>org.ethereum</groupId>
+					<artifactId>rocksdbjni</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.ethereum</groupId>
+					<artifactId>solcJ-all</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+
 	</dependencies>
 	<build>
 		<plugins>
