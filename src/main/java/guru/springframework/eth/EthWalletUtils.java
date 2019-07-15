@@ -10,7 +10,6 @@ import org.bitcoinj.params.TestNet3Params;
 import org.bitcoinj.wallet.DeterministicSeed;
 import org.bitcoinj.wallet.UnreadableWalletException;
 import org.bitcoinj.wallet.Wallet;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.web3j.crypto.*;
@@ -293,7 +292,7 @@ public class EthWalletUtils {
 
         //设置需要的矿工费
         BigInteger GAS_PRICE = BigInteger.valueOf(7_000_000_000L);
-        BigInteger GAS_LIMIT = BigInteger.valueOf(300_000);
+        BigInteger GAS_LIMIT = BigInteger.valueOf(30_000);
         String addressFrom = "0x09A1f94690Df952C9a35836d944653af5223D32D";
         String signPrivateKey = "0x0512197046b7126bdfeb591f397cf08bb10b1933d921a2aed121ef792bf5c77e";
         String addressTo = "0x33Dd8BEa61484E04159139fcFC8822267A07FCB1";
