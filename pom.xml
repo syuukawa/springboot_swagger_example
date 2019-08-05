@@ -85,17 +85,17 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.7</version>
 		</dependency>
-		<dependency>
-			<groupId>org.bitcoinj</groupId>
-			<artifactId>bitcoinj-core</artifactId>
-			<version>0.14.7</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.bitcoinj</groupId>-->
+<!--			<artifactId>bitcoinj-core</artifactId>-->
+<!--			<version>0.14.7</version>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.ethereum</groupId>
 			<artifactId>ethereumj-core</artifactId>
 			<version>1.7.2-RELEASE</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/libs/ethereumj-core-1.7.2-RELEASE.jar</systemPath>
+			<systemPath>${pom.basedir}/libs/ethereumj-core-1.7.2-RELEASE.jar</systemPath>
 			<exclusions>
 				<exclusion>
 					<groupId>org.ethereum</groupId>
@@ -109,10 +109,10 @@
 		</dependency>
 		<dependency>
 			<groupId>org.nervos.ckb</groupId>
-			<artifactId>nervos-ckb-utils-001</artifactId>
+			<artifactId>nervos-ckb-utils</artifactId>
 			<version>0.17.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/libs/utils-0.17.0.jar</systemPath>
+			<systemPath>${pom.basedir}/libs/utils-0.17.0.jar</systemPath>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.bitcoinj/bitcoinj-core -->
@@ -143,7 +143,6 @@
 			<artifactId>jsonrpc4j</artifactId>
 			<version>1.5.3</version>
 		</dependency>
-
 	</dependencies>
 	<build>
 		<plugins>
