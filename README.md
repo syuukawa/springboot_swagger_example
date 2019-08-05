@@ -1,2 +1,22 @@
 # Rest Service Documentation using Swagger
 
+http://127.0.0.1:8080/swagger-ui.html
+
+
+Privkey: 0x1fbc08e78753b386e503eba58aa3af655974e182ef909278d760ae9ed5f4b789
+PubKey: 0x026b6dde2f37fd6dab25ef228663b29009b68e225afb0b7fc6692b8c84191538b9
+uncompressedPubKey: 046b6dde2f37fd6dab25ef228663b29009b68e225afb0b7fc6692b8c84191538b96b517f3fcaf198b381f7f4a5c44dcc141d8fe112b90407b393e5585d1d27cdce
+Blake160: 0x9264c8ea50bb1223064b8c99d8400511a63927fa
+TestnetAddr: ckt1qyqfyexgafgtky3rqe9cexwcgqz3rf3eylaqnu2kjw
+MainnetAddr: ckb1qyqfyexgafgtky3rqe9cexwcgqz3rf3eylaqwe5f7j
+
+{
+  "address": "ckt1qyq9uf3399pjgw73q6dzyaxdnnt3ly4m4eys7lugrd",
+  "privateKey": "0xcS2vcN18fpuSLHiUcncLes8Bh1NoVMFqTAJVdk1zs76Cm1hqt7EB",
+  "privateHashKey": "0x84d706324c60819dc09c846116c1fc51cbf0eaf63bd9173fbc62088dc25cf74f",
+  "privKey": "0x60085210898437364558475467111180636497674956551051454535191545748412375562063",
+  "blake160": "0x5e26312943243bd1069a2274cd9cd71f92bbae49"
+}
+
+0x1fbc08e78753b386e503eba58aa3af655974e182ef909278d760ae9ed5f4b789
+0x84d706324c60819dc09c846116c1fc51cbf0eaf63bd9173fbc62088dc25cf74f

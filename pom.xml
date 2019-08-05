@@ -109,10 +109,10 @@
 		</dependency>
 		<dependency>
 			<groupId>org.nervos.ckb</groupId>
-			<artifactId>ckb-sdk-java</artifactId>
-			<version>0.16.0</version>
+			<artifactId>nervos-ckb-utils</artifactId>
+			<version>0.17.0</version>
 			<scope>system</scope>
-			<systemPath>/Users/zhouhe/syuukawa-github/springboot_swagger_example/libs/ckb-0.16.0-all.jar</systemPath>
+			<systemPath>${project.basedir}/libs/utils-0.17.0.jar</systemPath>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.bitcoinj/bitcoinj-core -->

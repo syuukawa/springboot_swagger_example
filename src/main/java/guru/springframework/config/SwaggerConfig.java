@@ -20,8 +20,8 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("guru.springframework.controllers"))
-                .paths(regex("/product.*"))
+                .apis(RequestHandlerSelectors.basePackage("guru.springframework.nervos.controllers"))
+                .paths(regex("/ckb.*"))
                 .build()
                 .apiInfo(metaData());
     }
@@ -42,5 +42,8 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
 
         registry.addResourceHandler("/webjars/**")
                 .addResourceLocations("classpath:/META-INF/resources/webjars/");
+
+        registry.addResourceHandler("/*")
+                .addResourceLocations("classpath:/resources/");
     }
 }
