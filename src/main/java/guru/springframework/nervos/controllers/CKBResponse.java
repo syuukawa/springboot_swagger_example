@@ -9,9 +9,9 @@ public class CKBResponse {
 
     private String privateKey;
 
-    private String privateHashKey;
+//    private String privateHashKey;
 
-    private String privKey;
+//    private String privKey;
 
     private String Blake160;
 

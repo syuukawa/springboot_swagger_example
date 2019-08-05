@@ -80,9 +80,9 @@ public class CKBChainController {
 //            System.out.println("private Key:  " + childKey0.getPrivateKeyAsWiF(testNetParams));
 //            System.out.println("private Hash Key:  " + childKey0.getPrivateKeyAsHex()); //测试用的privateKey
 //            System.out.println("privKey:  " + childKey0.getPrivKey());
-            response.setPrivateKey("0x" + childKey0.getPrivateKeyAsWiF(testNetParams));
-            response.setPrivateHashKey("0x" + childKey0.getPrivateKeyAsHex());
-            response.setPrivKey("0x" + childKey0.getPrivKey().toString());
+//            response.setPrivateKey("0x" + childKey0.getPrivateKeyAsWiF(testNetParams));
+            response.setPrivateKey("0x" + childKey0.getPrivateKeyAsHex());
+//            response.setPrivKey("0x" + childKey0.getPrivKey().toString());
 
             //TODO 生成私钥之后去CKB的Test环境去生成钱包地址；
             AddressUtils utils = new AddressUtils(Network.TESTNET);
