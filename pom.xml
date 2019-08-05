@@ -95,7 +95,7 @@
 			<artifactId>ethereumj-core</artifactId>
 			<version>1.7.2-RELEASE</version>
 			<scope>system</scope>
-			<systemPath>/Users/zhouhe/blockchain/ethereumj-core-1.7.2-RELEASE.jar</systemPath>
+			<systemPath>${project.basedir}/libs/ethereumj-core-1.7.2-RELEASE.jar</systemPath>
 			<exclusions>
 				<exclusion>
 					<groupId>org.ethereum</groupId>
@@ -109,7 +109,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.nervos.ckb</groupId>
-			<artifactId>nervos-ckb-utils</artifactId>
+			<artifactId>nervos-ckb-utils-001</artifactId>
 			<version>0.17.0</version>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/libs/utils-0.17.0.jar</systemPath>
